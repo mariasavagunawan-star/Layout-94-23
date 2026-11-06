@@ -1,0 +1,1727 @@
+body{
+    background-image: url(images\ background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+h2{
+    text-align: center;
+    background-color: rgb(230, 66, 54);
+    display: relative;
+}
+
+h1{
+    text-align: center;
+    background-color: aqua;
+}
+
+div.biodata{
+    margin: 30px auto;
+    width: 70%;
+    background-color: rgb(147, 198, 215);
+    color: black;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+div.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+div.foto{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid black;
+}
+
+div.foto img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.foto img.top{
+    opacity: 1;
+    z-index: 2;
+}
+
+.foto:hover img.top{
+    opacity: 0;
+    transform: scale(1.1);
+}
+
+.foto img.bottom{
+    opacity: 0; 
+    z-index: 1;
+}
+
+.foto:hover img.bottom{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+
+div.Sushi p,
+div.Indomie p,
+div.NasiPadang p,
+div.IceCream p,
+div.MangoSago p,
+div.Baking p,
+div.Cooking p,
+div.Crocheting p, 
+div.Gee p,
+div.Style p,
+div.AirPutih p,
+div.LemonTea p,
+div.LycheeTea p,
+div.Matcha p,
+div.Coffee p,
+div.Bluey p,
+div.Vampirina p,
+div.Sofia p,
+div.Doc p,
+div.LightBlue p,
+div.Purple p,
+div.Pink p,
+div.White p,
+div.DarkBlue p,
+div.Dessert p{
+    position: absolute;
+    bottom: 5px;
+    margin: 0;
+    z-index: 3;
+    font-weight: bold;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+div.Alvin p{
+    position: absolute;
+    bottom: 5px;
+    margin: 0;
+    z-index: 3;
+    font-weight: bold;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+div.m{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+
+div.makanan{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+
+div.minuman{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+
+div.Film{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+
+div.Warna{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+
+div.Sushi{
+    position: relative;
+    width: 200px;
+    height: 215px;
+    cursor: pointer;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    background-color: palevioletred;
+    border-radius: 5%;
+    padding: 5px;
+}
+
+div.Sushi:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+
+div.Sushi img{
+    position: absolute;
+    width: 200px;
+    height: 180px;
+    object-position: top; 
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    border-radius: 5% 5% 0% 0% ;
+}
+
+.Sushi img.ukuran{
+    opacity: 1;
+    z-index: 2;
+}
+
+.Sushi:hover img.ukuran{
+    opacity: 0;
+    transform: scale(1.1);
+}
+
+.Sushi img.ukur{
+    opacity: 0; 
+    z-index: 1;
+}
+
+.Sushi:hover img.ukur{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+h3{
+    text-align: center;
+    background-color: aqua;
+    
+}
+
+div.Indomie{
+    position: relative;
+    width: 200px;
+    height: 215px;
+    cursor: pointer;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    background-color: palevioletred;
+    border-radius: 5%;
+    padding: 5px;
+}
+
+div.Indomie:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+
+div.Indomie img{
+    position: absolute;
+    width: 200px;
+    height: 180px;
+    object-position: top; 
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    border-radius: 5% 5% 0% 0%;
+}
+
+.Indomie img.ukuranindomie{
+    opacity: 1;
+    z-index: 2;
+}
+
+.Indomie:hover img.ukuranindomie{
+    opacity: 0;
+    transform: scale(1.1);
+}
+
+.Indomie img.ukurindomie{
+    opacity: 0; 
+    z-index: 1;
+}
+
+.Indomie:hover img.ukurindomie{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+div.NasiPadang{
+    position: relative;
+    width: 200px;
+    height: 215px;
+    cursor: pointer;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    background-color: palevioletred;
+    border-radius: 5%;
+    padding: 5px;
+}
+
+div.NasiPadang:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+
+div.NasiPadang img{
+    position: absolute;
+    width: 200px;
+    height: 180px;
+    object-position: top; 
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    border-radius: 5% 5% 0% 0%;
+}
+
+.NasiPadang img.ukurannasi{
+    opacity: 1;
+    z-index: 2;
+}
+
+.NasiPadang:hover img.ukurannasi{
+    opacity: 0;
+    transform: scale(1.1);
+}
+
+.NasiPadang img.ukurnasi{
+    opacity: 0; 
+    z-index: 1;
+}
+
+.NasiPadang:hover img.ukurnasi{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+div.IceCream{
+    position: relative;
+    width: 200px;
+    height: 215px;
+    cursor: pointer;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    background-color: palevioletred;
+    border-radius: 5%;
+    padding: 5px;
+}
+
+div.IceCream:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+
+div.IceCream img{
+    position: absolute;
+    width: 200px;
+    height: 180px;
+    object-position: top; 
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    border-radius: 5% 5% 0% 0% ;
+}
+
+.IceCream img.ukuranice{
+    opacity: 1;
+    z-index: 2;
+}
+
+.IceCream:hover img.ukuranice{
+    opacity: 0;
+    transform: scale(1.1);
+}
+
+.IceCream img.ukurice{
+    opacity: 0; 
+    z-index: 1;
+}
+
+.IceCream:hover img.ukurice{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+div.MangoSago{
+    position: relative;
+    width: 200px;
+    height: 215px;
+    cursor: pointer;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    background-color: palevioletred;
+    border-radius: 5%;
+    padding: 5px;
+}
+
+div.MangoSago:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+
+div.MangoSago img{
+    position: absolute;
+    width: 200px;
+    height: 180px;
+    object-position: top; 
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    border-radius: 5% 5% 0% 0%;
+}
+
+.MangoSago img.ukuranmango{
+    opacity: 1;
+    z-index: 2;
+}
+
+.MangoSago:hover img.ukuranmango{
+    opacity: 0;
+    transform: scale(1.1);
+}
+
+.MangoSago img.ukurmango{
+    opacity: 0; 
+    z-index: 1;
+}
+
+.MangoSago:hover img.ukurmango{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+div.Baking{ 
+    position: relative;
+    width: 200px;
+    height: 240px;
+    cursor: pointer;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    background-color: palevioletred;
+    border-radius: 5%;
+    padding: 5px;
+}
+
+div.Baking:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+
+div.Baking img{
+    position: absolute;
+    width: 200px;
+    height: 180px;
+    object-position: top; 
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    border-radius: 5% 5% 0% 0% ;
+}
+
+.Baking img.ukuranbaking{
+    opacity: 1;
+    z-index: 2;
+}
+
+.Baking:hover img.ukuranbaking{
+    opacity: 0;
+    transform: scale(1.1);
+}
+
+.Baking img.ukurbaking{
+    opacity: 0; 
+    z-index: 1;
+}
+
+.Baking:hover img.ukurbaking{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+div.Baking audio {
+    position: absolute;
+    bottom: 30px;
+    width: 170px;
+    z-index: 4;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+div.Baking:hover audio {
+    opacity: 1;
+}
+
+
+div.Cooking{
+    position: relative;
+    width: 200px;
+    height: 240px;
+    cursor: pointer;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    background-color: palevioletred;
+    border-radius: 5%;
+    padding: 5px;
+}
+
+div.Cooking:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+
+div.Cooking img{
+    position: absolute;
+    width: 200px;
+    height: 180px;
+    object-position: top; 
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    border-radius: 5% 5% 0% 0%;
+}
+
+.Cooking img.ukurancooking{
+    opacity: 1;
+    z-index: 2;
+}
+
+.Cooking:hover img.ukurancooking{
+    opacity: 0;
+    transform: scale(1.1);
+}
+
+.Cooking img.ukurcooking{
+    opacity: 0; 
+    z-index: 1;
+}
+
+.Cooking:hover img.ukurcooking{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+div.Cooking audio {
+    position: absolute;
+    bottom: 30px;
+    width: 170px;
+    z-index: 4;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+div.Cooking:hover audio {
+    opacity: 1;
+}
+
+div.Crocheting{
+    position: relative;
+    width: 200px;
+    height: 240px;
+    cursor: pointer;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    background-color: palevioletred;
+    border-radius: 5%;
+    padding: 5px;
+}
+
+div.Crocheting:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+
+div.Crocheting img{
+    position: absolute;
+    width: 200px;
+    height: 180px;
+    object-position: top; 
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    border-radius: 5% 5% 0% 0% ;
+}
+
+.Crocheting img.ukurancrochet{
+    opacity: 1;
+    z-index: 2;
+}
+
+.Crocheting:hover img.ukurancrochet{
+    opacity: 0;
+    transform: scale(1.1);
+}
+
+.Crocheting img.ukurcrochet{
+    opacity: 0; 
+    z-index: 1;
+}
+
+.Crocheting:hover img.ukurcrochet{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+div.Crocheting audio {
+    position: absolute;
+    bottom: 30px;
+    width: 170px;
+    z-index: 4;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+div.Crocheting:hover audio {
+    opacity: 1;
+}
+
+div.Gee{
+    position: relative;
+    width: 200px;
+    height: 240px;
+    cursor: pointer;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    background-color: palevioletred;
+    border-radius: 5%;
+    padding: 5px;
+}
+
+div.Gee:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+
+div.Gee img{
+    position: absolute;
+    width: 200px;
+    height: 180px;
+    object-position: top; 
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    border-radius: 5% 5% 0% 0% ;
+}
+
+.Gee img.ukurangee{
+    opacity: 1;
+    z-index: 2;
+}
+
+.Gee:hover img.ukurangee{
+    opacity: 0;
+    transform: scale(1.1);
+}
+
+.Gee img.ukurgee{
+    opacity: 0; 
+    z-index: 1;
+}
+
+.Gee:hover img.ukurgee{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+div.Gee audio {
+    position: absolute;
+    bottom: 30px;
+    width: 170px;
+    z-index: 4;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+div.Gee:hover audio {
+    opacity: 1;
+}
+
+div.Style{
+    position: relative;
+    width: 200px;
+    height: 240px;
+    cursor: pointer;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    background-color: palevioletred;
+    border-radius: 5%;
+    padding: 5px;
+}
+
+div.Style:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+
+div.Style img{
+    position: absolute;
+    width: 200px;
+    height: 180px;
+    object-position: top; 
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    border-radius: 5% 5% 0% 0% ;
+}
+
+.Style img.ukuranstyle{
+    opacity: 1;
+    z-index: 2;
+}
+
+.Style:hover img.ukuranstyle{
+    opacity: 0;
+    transform: scale(1.1);
+}
+
+.Style img.ukurstyle{
+    opacity: 0; 
+    z-index: 1;
+}
+
+.Style:hover img.ukurstyle{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+div.Style audio {
+    position: absolute;
+    bottom: 30px;
+    width: 170px;
+    z-index: 4;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+div.Style:hover audio {
+    opacity: 1;
+}
+
+div.AirPutih{
+    position: relative;
+    width: 200px;
+    height: 240px;
+    cursor: pointer;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    background-color: palevioletred;
+    border-radius: 5%;
+    padding: 5px;
+}
+
+div.AirPutih:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+
+div.AirPutih img{
+    position: absolute;
+    width: 200px;
+    height: 180px;
+    object-position: top; 
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    border-radius: 5% 5% 0% 0% ;
+}
+
+.AirPutih img.ukuranair{
+    opacity: 1;
+    z-index: 2;
+}
+
+.AirPutih:hover img.ukuranair{
+    opacity: 0;
+    transform: scale(1.1);
+}
+
+.AirPutih img.ukurair{
+    opacity: 0; 
+    z-index: 1;
+}
+
+.AirPutih:hover img.ukurair{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+div.LemonTea{
+    position: relative;
+    width: 200px;
+    height: 240px;
+    cursor: pointer;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    background-color: palevioletred;
+    border-radius: 5%;
+    padding: 5px;
+}
+
+div.LemonTea:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+
+div.LemonTea img{
+    position: absolute;
+    width: 200px;
+    height: 180px;
+    object-position: top; 
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    border-radius: 5% 5% 0% 0% ;
+}
+
+.LemonTea img.ukuranlemon{
+    opacity: 1;
+    z-index: 2;
+}
+
+.LemonTea:hover img.ukuranlemon{
+    opacity: 0;
+    transform: scale(1.1);
+}
+
+.LemonTea img.ukurlemon{
+    opacity: 0; 
+    z-index: 1;
+}
+
+.LemonTea:hover img.ukurlemon{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+div.LycheeTea{
+    position: relative;
+    width: 200px;
+    height: 240px;
+    cursor: pointer;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    background-color: palevioletred;
+    border-radius: 5%;
+    padding: 5px;
+}
+
+div.LycheeTea:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+
+div.LycheeTea img{
+    position: absolute;
+    width: 200px;
+    height: 180px;
+    object-position: top; 
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    border-radius: 5% 5% 0% 0% ;
+}
+
+.LycheeTea img.ukuranlychee{
+    opacity: 1;
+    z-index: 2;
+}
+
+.LycheeTea:hover img.ukuranlychee{
+    opacity: 0;
+    transform: scale(1.1);
+}
+
+.LycheeTea img.ukurlychee{
+    opacity: 0; 
+    z-index: 1;
+}
+
+.LycheeTea:hover img.ukurlychee{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+div.Matcha{
+    position: relative;
+    width: 200px;
+    height: 240px;
+    cursor: pointer;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    background-color: palevioletred;
+    border-radius: 5%;
+    padding: 5px;
+}
+
+div.Matcha:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+
+div.Matcha img{
+    position: absolute;
+    width: 200px;
+    height: 180px;
+    object-position: top; 
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    border-radius: 5% 5% 0% 0% ;
+}
+
+.Matcha img.ukuranmatcha{
+    opacity: 1;
+    z-index: 2;
+}
+
+.Matcha:hover img.ukuranmatcha{
+    opacity: 0;
+    transform: scale(1.1);
+}
+
+.Matcha img.ukurmatcha{
+    opacity: 0; 
+    z-index: 1;
+}
+
+.Matcha:hover img.ukurmatcha{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+div.Coffee{
+    position: relative;
+    width: 200px;
+    height: 240px;
+    cursor: pointer;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    background-color: palevioletred;
+    border-radius: 5%;
+    padding: 5px;
+}
+
+div.Coffee:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+
+div.Coffee img{
+    position: absolute;
+    width: 200px;
+    height: 180px;
+    object-position: top; 
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    border-radius: 5% 5% 0% 0% ;
+}
+
+.Coffee img.ukurancoffee{
+    opacity: 1;
+    z-index: 2;
+}
+
+.Coffee:hover img.ukurancoffee{
+    opacity: 0;
+    transform: scale(1.1);
+}
+
+.Coffee img.ukurcoffee{
+    opacity: 0; 
+    z-index: 1;
+}
+
+.Coffee:hover img.ukurcoffee{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.Bluey {
+    position: relative;
+    width: 200px;
+    height: 215px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    background-color: palevioletred;
+    border-radius: 5%;
+    padding: 5px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.Bluey:hover {
+    transform: scale(1.1);
+}
+
+.Bluey img,
+.Bluey video {
+    position: absolute;
+    width: 200px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 5% 5% 0 0;
+}
+
+.Bluey .ukuranbluey {
+    opacity: 1;
+    z-index: 2;
+    transition: opacity 0.5s ease;
+}
+
+.Bluey .videobluey {
+    opacity: 0;
+    z-index: 3;
+    transition: opacity 0.5s ease;
+}
+
+.Bluey:hover .ukuranbluey {
+    opacity: 0;
+}
+
+.Bluey:hover .videobluey {
+    opacity: 1;
+}
+
+.Alvin {
+    position: relative;
+    width: 200px;
+    height: 215px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    background-color: palevioletred;
+    border-radius: 5%;
+    padding: 5px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.Alvin:hover {
+    transform: scale(1.1);
+}
+
+.Alvin img,
+.Alvin video {
+    position: absolute;
+    width: 200px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 5% 5% 0 0;
+}
+
+.Alvin .ukuranalvin {
+    opacity: 1;
+    z-index: 2;
+    transition: opacity 0.5s ease;
+}
+
+.Alvin .videoalvin {
+    opacity: 0;
+    z-index: 3;
+    transition: opacity 0.5s ease;
+}
+
+.Alvin:hover .ukuranalvin {
+    opacity: 0;
+}
+
+.Alvin:hover .videoalvin {
+    opacity: 1;
+}
+
+.Vampirina {
+    position: relative;
+    width: 200px;
+    height: 215px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    background-color: palevioletred;
+    border-radius: 5%;
+    padding: 5px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.Vampirina:hover {
+    transform: scale(1.1);
+}
+
+.Vampirina img,
+.Vampirina video {
+    position: absolute;
+    width: 200px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 5% 5% 0 0;
+}
+
+.Vampirina .ukuranvampirina {
+    opacity: 1;
+    z-index: 2;
+    transition: opacity 0.5s ease;
+}
+
+.Vampirina .videovampirina {
+    opacity: 0;
+    z-index: 3;
+    transition: opacity 0.5s ease;
+}
+
+.Vampirina:hover .ukuranvampirina {
+    opacity: 0;
+}
+
+.Vampirina:hover .videovampirina {
+    opacity: 1;
+}
+
+.Sofia {
+    position: relative;
+    width: 200px;
+    height: 215px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    background-color: palevioletred;
+    border-radius: 5%;
+    padding: 5px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.Sofia:hover {
+    transform: scale(1.1);
+}
+
+.Sofia img,
+.Sofia video {
+    position: absolute;
+    width: 200px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 5% 5% 0 0;
+}
+
+.Sofia .ukuransofia {
+    opacity: 1;
+    z-index: 2;
+    transition: opacity 0.5s ease;
+}
+
+.Sofia .videosofia {
+    opacity: 0;
+    z-index: 3;
+    transition: opacity 0.5s ease;
+}
+
+.Sofia:hover .ukuransofia {
+    opacity: 0;
+}
+
+.Sofia:hover .videosofia {
+    opacity: 1;
+}
+
+.Doc {
+    position: relative;
+    width: 200px;
+    height: 215px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    background-color: palevioletred;
+    border-radius: 5%;
+    padding: 5px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.Doc:hover {
+    transform: scale(1.1);
+}
+
+.Doc img,
+.Doc video {
+    position: absolute;
+    width: 200px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 5% 5% 0 0;
+}
+
+.Doc .ukurandoc {
+    opacity: 1;
+    z-index: 2;
+    transition: opacity 0.5s ease;
+}
+
+.Doc .videodoc {
+    opacity: 0;
+    z-index: 3;
+    transition: opacity 0.5s ease;
+}
+
+.Doc:hover .ukurandoc {
+    opacity: 0;
+}
+
+.Doc:hover .videodoc {
+    opacity: 1;
+}
+
+div.LightBlue{
+    position: relative;
+    width: 200px;
+    height: 215px;
+    cursor: pointer;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    background-color: palevioletred;
+    border-radius: 5%;
+    padding: 5px;
+}
+
+div.LightBlue:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+
+div.LightBlue img{
+    position: absolute;
+    width: 200px;
+    height: 180px;
+    object-position: top; 
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    border-radius: 5% 5% 0% 0%;
+}
+
+.LightBlue img.ukuranblue{
+    opacity: 1;
+    z-index: 2;
+}
+
+.LightBlue:hover img.ukuranblue{
+    opacity: 0;
+    transform: scale(1.1);
+}
+
+.LightBlue img.ukurbunga{
+    opacity: 0; 
+    z-index: 1;
+}
+
+.LightBlue:hover img.ukurbunga{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+div.Purple{
+    position: relative;
+    width: 200px;
+    height: 215px;
+    cursor: pointer;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    background-color: palevioletred;
+    border-radius: 5%;
+    padding: 5px;
+}
+
+div.Purple:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+
+div.Purple img{
+    position: absolute;
+    width: 200px;
+    height: 180px;
+    object-position: top; 
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    border-radius: 5% 5% 0% 0%;
+}
+
+.Purple img.ukuranpurple{
+    opacity: 1;
+    z-index: 2;
+}
+
+.Purple:hover img.ukuranpurple{
+    opacity: 0;
+    transform: scale(1.1);
+}
+
+.Purple img.ukurpurple{
+    opacity: 0; 
+    z-index: 1;
+}
+
+.Purple:hover img.ukurpurple{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+div.Pink{
+    position: relative;
+    width: 200px;
+    height: 215px;
+    cursor: pointer;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    background-color: palevioletred;
+    border-radius: 5%;
+    padding: 5px;
+}
+
+div.Pink:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+
+div.Pink img{
+    position: absolute;
+    width: 200px;
+    height: 180px;
+    object-position: top; 
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    border-radius: 5% 5% 0% 0%;
+}
+
+.Pink img.ukuranpink{
+    opacity: 1;
+    z-index: 2;
+}
+
+.Pink:hover img.ukuranpink{
+    opacity: 0;
+    transform: scale(1.1);
+}
+
+.Pink img.ukurpink{
+    opacity: 0; 
+    z-index: 1;
+}
+
+.Pink:hover img.ukurpink{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+div.White{
+    position: relative;
+    width: 200px;
+    height: 215px;
+    cursor: pointer;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    background-color: palevioletred;
+    border-radius: 5%;
+    padding: 5px;
+}
+
+div.White:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+
+div.White img{
+    position: absolute;
+    width: 200px;
+    height: 180px;
+    object-position: top; 
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    border-radius: 5% 5% 0% 0%;
+}
+
+.White img.ukuranwhite{
+    opacity: 1;
+    z-index: 2;
+}
+
+.White:hover img.ukuranwhite{
+    opacity: 0;
+    transform: scale(1.1);
+}
+
+.White img.ukurwhite{
+    opacity: 0; 
+    z-index: 1;
+}
+
+.White:hover img.ukurwhite{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+div.DarkBlue{
+    position: relative;
+    width: 200px;
+    height: 215px;
+    cursor: pointer;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    background-color: palevioletred;
+    border-radius: 5%;
+    padding: 5px;
+}
+
+div.DarkBlue:hover{
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+}
+
+div.DarkBlue img{
+    position: absolute;
+    width: 200px;
+    height: 180px;
+    object-position: top; 
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    border-radius: 5% 5% 0% 0%;
+}
+
+.DarkBlue img.ukurandark{
+    opacity: 1;
+    z-index: 2;
+}
+
+.DarkBlue:hover img.ukurandark{
+    opacity: 0;
+    transform: scale(1.1);
+}
+
+.DarkBlue img.ukurdark{
+    opacity: 0; 
+    z-index: 1;
+}
+
+.DarkBlue:hover img.ukurdark{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+
+
+.dessert-track {
+    display: flex;
+    gap: 20px;
+    width: max-content;
+
+    animation: dessertSlide 20s linear infinite;
+}
+
+.Dessert {
+    position: relative;
+    width: 200px;
+    height: 215px;
+    flex-shrink: 0;
+
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+
+    background-color: palevioletred;
+    border-radius: 5%;
+    padding: 5px;
+
+    overflow: hidden;
+
+    transition: transform 0.3s ease;
+}
+
+.Dessert:hover {
+    transform: scale(1.1);
+}
+
+.Dessert img {
+    position: absolute;
+
+    width: 200px;
+    height: 180px;
+
+    object-fit: cover;
+
+    border-radius: 5% 5% 0 0;
+}
+
+
+@keyframes dessertSlide {
+
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-1100px);
+    }
+
+}
+
+.dessert-slider {
+    width: 85%;
+    margin: 0 auto;
+    overflow: hidden;
+
+    /* KOTAK SLIDER */
+    background-color: rgb(147, 198, 215);
+    border: 5px solid black;
+    border-radius: 20px;
+
+    padding: 25px 15px;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.artis-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 30px auto;
+}
+
+.flip-card {
+    width: 220px;
+    height: 300px;
+    perspective: 1000px;
+    cursor: pointer;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    backface-visibility: hidden;
+
+    border-radius: 20px;
+    overflow: hidden;
+
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+
+
+.flip-card-front {
+    background-color: palevioletred;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    color: white;
+}
+
+
+.flip-card-front img {
+    width: 100%;
+    height: 220px;
+
+    object-fit: cover;
+}
+
+
+.flip-card-front p {
+    margin: 10px 0 3px;
+
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.flip-card-back {
+    background: linear-gradient(
+        135deg,
+        #ffb6d9,
+        #c8e9ff
+    );
+
+    color: #333;
+
+    transform: rotateY(180deg);
+
+    padding: 20px;
+
+    text-align: center;
+}
+
+
+.flip-card-back h3 {
+    background: none;
+    margin-top: 5px;
+    color: #d63384;
+}
+
+
+.flip-card-back p {
+    font-size: 35px;
+    margin: 12px 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+
+.flip-card-back .back-text {
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.opening {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(
+        135deg,
+        #ffd6e7,
+        #d9f3ff
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    transition: opacity 1s ease, visibility 1s ease;
+}
+
+
+.welcome-text {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 50px 70px;
+    border-radius: 30px;
+    border: 3px solid white;
+    box-shadow:
+        0 10px 30px rgba(0, 0, 0, 0.15);
+    animation: welcomeAppear 1.2s ease;
+}
+
+
+.welcome-text span {
+    color: #d85b91;
+    font-size: 25px;
+}
+
+.welcome-text h2 {
+    background: none;
+    color: #7b4960;
+    font-family: Georgia, 'Times New Roman', serif;
+    margin: 20px 0;
+    font-size: 30px;
+}
+
+
+.welcome-text button {
+    display: block;
+    margin: 30px auto 0;
+    padding: 12px 25px;
+    border: 2px solid #d88bab;
+    border-radius: 30px;
+    background-color: white;
+    color: #a65378;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+
+.welcome-text button:hover {
+    background-color: #f7b8d0;
+    color: white;
+    transform: scale(1.08);
+}
+
+.opening.hide {
+    opacity: 0;
+    visibility: hidden;
+}
+
+@keyframes welcomeAppear {
+
+    from {
+        opacity: 0;
+        transform: translateY(30px) scale(0.95);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+
+}
+
+.back-to-top {
+    text-align: center;
+    margin: 70px 0 40px;
+}
+
+.back-to-top button {
+    padding: 12px 30px;
+    border: 3px solid white;
+    border-radius: 30px;
+    background: linear-gradient(
+        135deg,
+        #ffb6d9,
+        #c8e9ff
+    );
+    color: #7b4960;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+    transition: 0.3s ease;
+}
+
+.back-to-top button:hover {
+    transform: translateY(-5px) scale(1.05);
+    background: linear-gradient(
+        135deg,
+        #f7a6cc,
+        #b8e2ff
+    );
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.back-to-top p {
+    color: #d85b91;
+    font-size: 22px;
+    margin-top: 15px;
+}
