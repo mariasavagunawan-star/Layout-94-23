@@ -1,0 +1,186 @@
+header {
+    width: 100%;
+    height: 270px;
+    overflow: hidden;
+}
+
+header img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+*{
+    box-sizing: border-box;
+}
+
+.topnav{
+    border: 3px solid black;
+    margin: 10px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow: hidden;
+    background-color: palevioletred;
+}
+
+h2{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+h1{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.ab{
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+body{
+    margin: 0;
+    background-image: url(backg.jpg);
+    background-repeat: no repeat;
+    background-size: cover;
+}
+
+/* style header 
+.header{
+    background-color: palegreen;
+    padding: 20px;
+    text-align: center;
+}
+*/
+
+
+.topnav a{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover{
+    background-color: paleturquoise;
+    color: black;
+}
+
+/* style pada content */
+.column{
+    float: left;
+    padding: 10px;
+}
+
+.column.side{
+    width: 25%;
+}
+
+.column.middle{
+    width: 50%;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer{
+    background-color: plum;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid black;
+}
+
+/* style pada table */
+table, th, td{
+    border: 1px solid black;
+}
+
+table{
+    border-collapse: collapse;
+    width: 70%;
+    text-align: center;
+    margin-left: 170px;
+}
+
+th, td{
+    padding: 5px;
+}
+
+tr{
+    background-color: antiquewhite;
+}
+
+tr:nth-child(even){
+    background-color: aquamarine;
+}
+
+tr:nth-child(odd){
+    background-color: papayawhip;
+}
+
+tr:hover{
+    background-color: paleturquoise;
+}
+
+ol{
+    background-color: palevioletred;
+    border: 3px solid black;
+    list-style-type: upper-roman;
+    list-style-position: inside;
+    padding: 15px 30px;
+    margin: 10px;
+}
+
+ul, ol{
+    margin-left: 30px;
+}
+
+ul li{
+    background-color: paleturquoise;
+    margin: 8px 0px;
+    padding: 8px 12px;
+    border: 2px solid yellowgreen;
+    font-size: 15px;
+}
+
+ol li{
+    background-color: paleturquoise;
+    margin: 8px 0px;
+    padding: 8px 12px;
+    border: 2px solid yellowgreen;
+    font-size: 15px;
+}
+
+ul{
+    background-color: palevioletred;
+    border: 3px solid black;
+    list-style-position: inside;
+    padding: 15px 30px;
+    margin: 30px;
+}
+
+li:hover {
+    background-color: palegoldenrod;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.warna{
+    background-color: palegreen;
+}
+
+.abc{
+    text-align: center;
+    background-color: peru;
+    margin-left: 500px;
+    margin-right: 500px;
+    font-size: 25px;
+}
