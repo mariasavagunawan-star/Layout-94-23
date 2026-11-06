@@ -1,0 +1,516 @@
+body{
+    margin: 0;
+    background-image: url("ba.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header{
+    background-image: url("backgn.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    min-height: 300px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    color: rgb(192, 65, 15);
+    font-family: "abxcd";
+    -webkit-text-stroke: 1px white;
+}
+
+@font-face {
+    font-family: "abxcd";
+    src: url("Anak\ Gedong.otf");
+}
+
+
+
+header h2{
+    font-size: 60px;
+    margin: 10px;
+    transition: 0.3s;
+}
+
+header h1{
+    font-size: 30px;
+    margin: 10px;
+    transition: 0.3s;
+}
+
+header h2:hover{
+    color: rgb(209, 202, 0);
+    transform: scale(1.2);
+    -webkit-text-stroke: 1px black;
+}
+
+header h1:hover{
+    color: rgb(209, 202, 0);
+    transform: scale(1.2);
+    -webkit-text-stroke: 1px black;
+}
+section.pengertian {
+    background-color: #dceeff;
+    padding: 30px 40px;
+    margin: 20px auto;
+    width: 85%;
+
+    align-items: center;
+    gap: 40px;
+
+    border-radius: 20px;
+}
+
+
+.pengertian .isi {
+    flex: 1;
+}
+
+.pengertian img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+
+    border: 5px solid black;
+    border-radius: 20px;
+}
+
+.pengertian img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border: 5px solid black;
+    border-radius: 20px;
+
+    transition: 0.3s ease;
+}
+
+.pengertian img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.pengertian {
+    transition: 0.3s ease;
+}
+
+.pengertian:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+section {
+    display: none;
+    width: 80%;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 15px;
+    animation: fade 0.5s;
+}
+
+section.active {
+    display: block;
+}
+
+section.pengertian.active {
+    display: flex;
+}
+
+section.manfaat.active {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.isimanfaat {
+    flex: 1;
+}
+
+.fotomanfaat {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    flex-shrink: 0;
+}
+
+.fotomanfaat{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    flex-shrink: 0;
+}
+
+.fotomanfaat {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    flex-shrink: 0;
+}
+
+.fotomanfaat img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    border: 5px solid black;
+    border-radius: 20px;
+
+    transition: opacity 0.4s ease;
+}
+
+.fotomanfaat .Gambar1 {
+    opacity: 1;
+}
+
+.fotomanfaat .Gambar2 {
+    opacity: 0;
+}
+
+.fotomanfaat:hover .Gambar1 {
+    opacity: 0;
+}
+
+.fotomanfaat:hover .Gambar2 {
+    opacity: 1;
+}
+
+.fotomanfaat {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    flex-shrink: 0;
+    transition: 0.3s ease;
+}
+
+.fotomanfaat:hover {
+    transform: scale(1.08);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+section.dampak.active {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+section.dampak .isidampak {
+    flex: 1;
+}
+
+section.dampak .fotodampak {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    flex-shrink: 0;
+    transition: 0.3s ease;
+}
+
+
+section.dampak .fotodampak img {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    border: 5px solid black;
+    border-radius: 20px;
+
+    transition: opacity 0.4s ease;
+}
+
+
+section.dampak .fotodampak .gambar1 {
+    opacity: 1;
+}
+
+
+section.dampak .fotodampak .gambar2 {
+    opacity: 0;
+}
+
+
+section.dampak .fotodampak:hover .gambar1 {
+    opacity: 0;
+}
+
+section.dampak .fotodampak:hover .gambar2 {
+    opacity: 1;
+}
+
+section.dampak .fotodampak:hover {
+    transform: scale(1.08);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+
+section.dampak:hover {
+    transform: scale(1.03);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+}
+
+section.tips.active {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+section.tips .isitips {
+    flex: 1;
+}
+
+section.tips .fototips {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    flex-shrink: 0;
+    transition: 0.3s ease;
+}
+
+
+section.tips .fototips img {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    border: 5px solid black;
+    border-radius: 20px;
+
+    transition: opacity 0.4s ease;
+}
+
+
+section.tips .fototips .tips1 {
+    opacity: 1;
+}
+
+
+section.tips .fototips .tips2 {
+    opacity: 0;
+}
+
+
+section.tips .fototips:hover .tips1 {
+    opacity: 0;
+}
+
+section.tips .fototips:hover .tips2 {
+    opacity: 1;
+}
+
+section.tips .fototips:hover {
+    transform: scale(1.08);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+
+section.tips:hover {
+    transform: scale(1.03);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+}
+
+
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 15px;
+    background-color: white;
+    border-bottom: 2px solid black;
+}
+
+section {
+    display: none;
+}
+
+section.active {
+    display: block;
+}
+
+section.pengertian.active,
+section.manfaat.active {
+    display: flex;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 15px;
+    background-color: white;
+    border-bottom: 2px solid black;
+}
+
+section {
+    display: none;
+}
+
+section.active {
+    display: block;
+}
+
+section.pengertian.active,
+section.manfaat.active {
+    display: flex;
+}
+
+
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover{
+    color: burlywood;
+    transform: scale(1.1);
+}
+
+section{
+    display: none;
+    width: 80%;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 15px;
+    animation: fade 0.5s;
+}
+
+section.active{
+    display: block;
+}
+
+section p{
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.6;
+}
+
+
+#home{
+    background-color: #dceeff;
+}
+
+#benefits{
+    background-color: #dff5df;
+}
+
+#risks{
+    background-color: #ffe0e0;
+}
+
+#tips{
+    background-color: #fff4cc;
+}
+
+@keyframes fade{
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+.quiz {
+    width: 75%;
+    margin: 40px auto;
+    padding: 35px;
+    background-color: #fff4d6;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.quiz h2 {
+    text-align: center;
+    color: #8b5e34;
+    font-size: 35px;
+}
+
+.quiz-intro {
+    text-align: center !important;
+    text-indent: 0 !important;
+}
+
+.question {
+    background-color: white;
+    margin: 25px 0;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+
+.question p {
+    font-weight: bold;
+    text-align: left !important;
+    text-indent: 0 !important;
+}
+
+.question label {
+    display: block;
+    margin: 12px 0;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.question label:hover {
+    background-color: #ffe3a3;
+    transform: translateX(5px);
+}
+
+.question input {
+    margin-right: 10px;
+}
+
+.quiz button {
+    display: block;
+    margin: 30px auto 10px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 10px;
+    background-color: #d49b5c;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.quiz button:hover {
+    background-color: #a86f32;
+    transform: scale(1.08);
+}
+
+#quiz-result {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
